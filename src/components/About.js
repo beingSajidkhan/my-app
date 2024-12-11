@@ -96,6 +96,7 @@ const About = () => {
                             </div>
                         </div>
                     </section>
+
                 </div>
             </section>
 
@@ -103,6 +104,8 @@ const About = () => {
         </>
     );
 };
+
+
 
 
 export default About
