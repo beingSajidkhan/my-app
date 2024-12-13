@@ -5,9 +5,6 @@ const Header = () => {
  
   return (
     <>
-
-    
-
       <header className="bg-white">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="flex items-center justify-between h-16 lg:h-[72px]">
@@ -19,7 +16,6 @@ const Header = () => {
             </div>
 
             <div className="hidden lg:flex lg:items-center lg:ml-16 xl:ml-24 lg:space-x-8">
-              <div className="relative group" style={{ zIndex: "400" }}>
                 <a
                   href="#"
                   title=""
@@ -28,9 +24,9 @@ const Header = () => {
                 >
                   Home
                 </a>
-              </div>
 
-              <div className="relative group" style={{ zIndex: "400" }}>
+
+              <div className="relative group" style={{ zIndex: "200" }}>
                 <a
                   href="#"
                   title=""
@@ -53,11 +49,30 @@ const Header = () => {
                   >
                     Option 2
                   </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Option 3
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Option 4
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Option 5
+                  </a>
                 </div>
                 {/* } */}
               </div>
 
-              <div className="relative group" style={{ zIndex: "400" }}>
+
+              <div className="relative group" style={{ zIndex: "200" }}>
                 <a
                   href="#"
                   title=""
@@ -80,11 +95,24 @@ const Header = () => {
                   >
                     Option 2
                   </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Option 3
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Option 4
+                  </a>
                 </div>
                 {/* } */}
               </div>
 
-              <div className="relative group" style={{ zIndex: "400" }}>
+
+              <div className="relative group" style={{ zIndex: "200" }}>
                 <a
                   href="#"
                   title=""
@@ -107,11 +135,24 @@ const Header = () => {
                   >
                     Option 2
                   </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Option 3
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Option 4
+                  </a>
                 </div>
                 {/* } */}
               </div>
 
-              <div className="relative group" style={{ zIndex: "400" }}>
+
+              <div className="relative group" style={{ zIndex: "200" }}>
                 <a
                   href="#"
                   title=""
@@ -138,6 +179,7 @@ const Header = () => {
                 {/* } */}
               </div>
 
+
               <div className="relative group">
                 <a
                   href="#"
@@ -148,6 +190,8 @@ const Header = () => {
                 </a>
               </div>
             </div>
+
+
 
             <div className="flex items-center justify-end ml-auto space-x-2 sm:space-x-5">
               <button

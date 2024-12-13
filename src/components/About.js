@@ -56,7 +56,9 @@ const About = () => {
                                         A Nagar Panchayat is a form of urban local body (ULB) that governs
                                         a town in transition from rural to urban. It is also known as a
                                         town panchayat or Notified Area Council (NAC).
-                                       
+                                        A Nagar Panchayat is a form of urban local body (ULB) that governs
+                                        a town in transition from rural to urban. It is also known as a
+                                        town panchayat or Notified Area Council (NAC).
                                     </p>
                                 </div>
                             </div>
@@ -96,7 +98,6 @@ const About = () => {
                             </div>
                         </div>
                     </section>
-
                 </div>
             </section>
 
@@ -104,8 +105,6 @@ const About = () => {
         </>
     );
 };
-
-
 
 
 export default About
