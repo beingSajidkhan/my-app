@@ -1,11 +1,10 @@
-
 import React from "react";
 // import { motion } from "framer-motion";
 
 const Nagrikseva = () => {
   return (
-    <section className=" py-12 bg-yellow-50 overflow-hidden sm:py-16 lg:py-20">
-      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <section className=" py-12 bg-yellow-50 overflow-hidden sm:py-12 lg:py-5">
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 pb-10">
         <div className="flex flex-col items-center">
           
           <div className="text-center">

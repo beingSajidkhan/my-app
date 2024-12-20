@@ -1,6 +1,5 @@
 import React from "react";
-import about from "../Photo/about_1.jpg";
-
+import about from "../Photo/about.jpg";
 
 const About = () => {
     return (
@@ -11,9 +10,6 @@ const About = () => {
                         <div class="px-4 mx-auto sm:px-6 lg:px-8">
                             <div class="flex items-center justify-between h-16 lg:h-20">
                                 <div class="flex-shrink-0">
-                                    <a href="#" title="" class="flex">
-                                        {/* <img class="w-auto h-8" src="#" alt="Logo" /> */}
-                                    </a>
                                 </div>
                                 <button
                                     type="button"
@@ -64,35 +60,17 @@ const About = () => {
                             </div>
 
                             {/* Image Area */}
-                            <div class="relative w-full overflow-hidden lg:order-1 h-[500px] lg:h-[550px] lg:w-9/12">
+                            <div class="relative w-full lg:order-2 h-[500px] lg:h-[490px] lg:w-9/12">
                                 <div class="absolute inset-0 ">
                                     <img
-                                        class="object-cover w-full h-full"
+                                        class="object-cover w-70px h-full"
                                         src={about}
                                         alt="about"
                                     />
                                 </div>
                                 <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                                 <div class="absolute bottom-0 left-0">
-                                    <div class="p-4 sm:p-6 lg:p-8" style={{paddingLeft:"8rem"}}>
-                                        <div class="flex items-center">
-                                            <svg
-                                                class="w-10 h-10 text-orange-500"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 20 20"
-                                                fill="currentColor"
-                                            >
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
-                                                    clip-rule="evenodd"
-                                                />
-                                            </svg>
-                                            <h2 class="font-bold text-white text-7xl ml-2.5">365 Day's</h2>
-                                        </div>
-                                        <p class="max-w-xs mt-1.5 text-xl text-white">
-                                            About Nagar Parishad
-                                        </p>
+                                    <div class="p-4 sm:p-6 lg:p-8" style={{ paddingLeft: "8rem" }}>
                                     </div>
                                 </div>
                             </div>
@@ -100,11 +78,8 @@ const About = () => {
                     </section>
                 </div>
             </section>
-
-
         </>
     );
 };
-
 
 export default About

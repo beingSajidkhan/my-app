@@ -1,14 +1,11 @@
-
 import React from 'react';
 import link_1 from '../Photo/link_1.jpg'
 import link_2 from '../Photo/link_2.jpg'
 import link_3 from  '../Photo/link_3.jpg'
 
-
 const Importantlink = () => {
 
     return (
-
         <div className="important-links-box border-4 bg-white p-2 my-3 mx-auto rounded-lg">
             {/* Header */}
             <div className="bg-orange-700 text-black text-center py-3 text-xl font-bold">
@@ -26,8 +23,7 @@ const Importantlink = () => {
                             rel="noopener noreferrer"
                             className="relative rounded p-4 flex items-center justify-between bg-cover bg-center border-2 border-gray-300 text-black text-decoration-none hover:shadow-md"
                             style={{
-                                // backgroundImage: "url('/assets/img/dash/background.jpg')",
-                                // height: "120px",
+                                
                             }}
                         >
                             <img
@@ -52,7 +48,7 @@ const Importantlink = () => {
                             <img
                                 src={link_2}
                                 alt="ECI"
-                                className="w-16 h-16"
+                                className="w-95 h-16"
                             />
                             <h6 className="text-sm font-semibold">ECI</h6>
                         </a>
@@ -136,10 +132,7 @@ const Importantlink = () => {
                 </div>
             </div>
         </div>
-
-
     );
-    
 };
 
 export default Importantlink

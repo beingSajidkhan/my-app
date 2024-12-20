@@ -8,25 +8,26 @@ import About from "./About";
 // import pic_1 from "../Photo/pic_1.jpg";
 import Eo from "../Photo/Eo.jpg";
 import Photo from "../Photo/about.jpg";
-
-
+import ImageSlider from "./ImageSlider";
+import CardHD from "./Card";
 
 
 const Body = () => {
   return (
     <div>
 
-
       <Slider />
+      {/* <ImageSlider/> */}
       <NigamCard />
-      <Services />
-      <Importantlink />
-      <Nagrikseva />
+      <div>
+      <CardHD/>
+      </div>
+      {/* <Services /> */}
+      {/* <Importantlink /> */}
+      {/* <Nagrikseva /> */}
       <About />
-
-
+      
     </div>
-
 
   );
 };

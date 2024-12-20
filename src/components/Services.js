@@ -38,8 +38,6 @@ const Services = () => {
           </p>
         </div>
 
-        
-
         <div class="md:p-8 lg:p-14 hover:scale-105 hover:bg-green-200 focus:bg-green-200 active:bg-green-30 transition-colors duration-300 md:border-l md:border-gray-200">
           <div style={{ display: "flex", justifyContent: "center" }}>
             <svg

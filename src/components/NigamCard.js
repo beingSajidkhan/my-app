@@ -8,13 +8,13 @@ const NigamCard = () => {
                 <div class="px-6 mx-auto sm:px-8 lg:px-8 max-w-7x2">
                     <div class="max-w-md mx-auto text-center">
                         <h2 class="text-2xl font-bold text-gray-900 sm:text-3xl">OFFICIALS</h2>
-                        <p class="mt-4 text-base font-normal leading-7 text-gray-600">Domo Nagar Panchyat OFFICIALS</p>
+                        <p class="mt-4 text-base font-normal leading-7 text-gray-600"></p>
                     </div>
 
                     <div class="grid grid-cols-3 gap-6 mt-10 lg:mt-16 lg:gap-4 lg:grid-cols-3 sm:grid-cols-3 md:grid-cols-3">
                         <div class="relative group">
                             <div class="overflow-hidden aspect-w-1 aspect-h-1">
-                                <img class="object-cover w-full h-full rounded-full transition-all duration-300 group-hover:scale-125" src={Eo} alt="Eo" />
+                                <img class="object-cover w-full h-100 rounded-full transition-all duration-300 group-hover:scale-125" src={Eo} alt="Eo" />
                             </div>
 
                             <div class="flex items-start justify-center mt-4 space-x-4">
@@ -24,7 +24,7 @@ const NigamCard = () => {
                                             Chairman Lorem
                                             <span class="absolute inset-0" aria-hidden="true"></span>
                                         </a>
-                                   </h3>
+                                    </h3>
                                 </div>
                             </div>
                         </div>
@@ -42,7 +42,6 @@ const NigamCard = () => {
                                         </a>
                                     </h3>
                                 </div>
-
                             </div>
                         </div>
 
@@ -59,7 +58,6 @@ const NigamCard = () => {
                                         </a>
                                     </h3>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -68,5 +66,4 @@ const NigamCard = () => {
         </>
     )
 }
-
 export default NigamCard

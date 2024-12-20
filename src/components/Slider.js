@@ -15,7 +15,7 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 const ImageCarousel = () => {
   return (
     <div className="bg-grey-600 text-center text-white bg-yellow-50 overflow-hidden:bg-neutral-600 dark:text-neutral-600">
-      <div className="container mx-auto p-10" style={{ maxWidth: "100vw", height: "600px" }}>
+      <div className="container mx-auto pl-10 pr-10" style={{ maxWidth: "100vw", height: "620px" }}>
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={20}
@@ -50,12 +50,3 @@ const ImageCarousel = () => {
 };
 
 export default ImageCarousel;
-
-
-
-
-
-
-
-
-
