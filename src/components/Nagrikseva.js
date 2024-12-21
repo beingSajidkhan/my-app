@@ -2,6 +2,7 @@ import React from "react";
 // import { motion } from "framer-motion";
 
 const Nagrikseva = () => {
+  
   return (
     <section className=" py-12 bg-yellow-50 overflow-hidden sm:py-12 lg:py-5">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 pb-10">

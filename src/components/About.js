@@ -2,6 +2,7 @@ import React from "react";
 import about from "../Photo/about.jpg";
 
 const About = () => {
+    
     return (
         <>
             <section>
